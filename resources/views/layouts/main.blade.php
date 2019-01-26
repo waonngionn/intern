@@ -8,7 +8,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand h2" href="{{url('')}}/" style="margin: 0 0 0 10px;">NextInnovation</a>
+  <a class="navbar-brand h2 title_logo" href="{{url('')}}/">NextInnovation</a>
 
   <div class="collapse navbar-collapse" id="Navber">
     <ul class="navbar-nav mr-auto">
