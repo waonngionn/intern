@@ -80,7 +80,7 @@ class T_salesdataController extends Controller
     public function edit($id)
     {
       $param = array('salesdataid' => $id);
-      $salesdatas = DB::select('select * from t_salesdatas inner join T_products on t_salesdatas.product_no = T_products.product_no where T_salesdatas.salesdataid = :salesdataid', $param);
+      $salesdatas = DB::select('select * from t_salesdatas inner join t_products on t_salesdatas.product_no = t_products.product_no where t_salesdatas.salesdataid = :salesdataid', $param);
 
       $products = DB::select('select * from t_products');
 
