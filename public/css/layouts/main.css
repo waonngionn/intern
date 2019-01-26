@@ -1,0 +1,10 @@
+.menu_box{
+    position: relative;
+    width: 100%;
+}
+.menu_btns{
+    left: 0; right: 0;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}

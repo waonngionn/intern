@@ -1,0 +1,19 @@
+.new_content{
+  left: 0; right: 0;
+  margin: auto;
+  margin-top: 100px;
+  width: 50%;
+  text-align: left;
+}
+.salesdata_h2{
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.table_salesdata{
+  left: 0; right: 0;
+  margin: auto;
+  margin-top: 50px;
+  width: 50%;
+  text-align: center;
+}
