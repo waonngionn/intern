@@ -112,7 +112,7 @@ class T_saleController extends Controller
         unset($param['month']);
         unset($param['day']);
         Log::info($param);
-        DB::update('update T_sales set sale_day = :sale_day, customer_no = :customer_no where sale_no = :sale_no', $param);
+        DB::update('update t_sales set sale_day = :sale_day, customer_no = :customer_no where sale_no = :sale_no', $param);
         return redirect('/sale');
     }
 

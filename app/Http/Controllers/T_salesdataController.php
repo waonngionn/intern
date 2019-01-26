@@ -105,7 +105,7 @@ class T_salesdataController extends Controller
         $param = $request->all();
         unset($param['_token']);
         Log::info($param);
-        DB::update('update T_salesdatas set product_no = :product_no, product_cnt = :product_cnt where salesdataid = :salesdataid', $param);
+        DB::update('update t_salesdatas set product_no = :product_no, product_cnt = :product_cnt where salesdataid = :salesdataid', $param);
         return redirect('/salesdata');
     }
 
