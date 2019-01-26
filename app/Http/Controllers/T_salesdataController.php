@@ -56,7 +56,7 @@ class T_salesdataController extends Controller
         unset($param['product_name']);
         unset($param['product_cost']);
         unset($param['_token']);
-        DB::insert('insert into T_salesdatas set sale_no = :sale_no, product_no = :product_no, product_cnt = :product_cnt', $param);
+        DB::insert('insert into t_salesdatas set sale_no = :sale_no, product_no = :product_no, product_cnt = :product_cnt', $param);
         return redirect('/sale');
     }
 
