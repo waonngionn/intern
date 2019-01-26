@@ -49,7 +49,7 @@ class T_saleController extends Controller
         unset($param['day']);
         unset($param['_token']);
         Log::info($param);
-        DB::insert('insert into T_sales set sale_day = :sale_day, customer_no = :customer_no', $param);
+        DB::insert('insert into t_sales set sale_day = :sale_day, customer_no = :customer_no', $param);
         $id = DB::getPdo()->lastInsertId();
         Log::info($id);
         return redirect('/salesdata/create/' . $id);
