@@ -1,7 +1,7 @@
 # intern
 
 ## URL
-http://waonn.sakura.ne.jp/intern/product    
+http://waonn.sakura.ne.jp/intern/customer    
 
 
 ## 概要
